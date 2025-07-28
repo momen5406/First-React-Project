@@ -1,0 +1,109 @@
+/* Start Nav */
+nav {
+  background-color: #2C3E50;
+}
+
+.navbar-brand {
+  --bs-navbar-brand-color: white;
+  --bs-navbar-brand-hover-color: white;
+  --bs-navbar-brand-font-size: 32px;
+}
+
+@media (max-width: 547px) {
+  .navbar-brand {
+    --bs-navbar-brand-font-size: 26px;
+  }
+}
+
+.nav-link {
+  --bs-nav-link-color: white;
+  --bs-nav-link-hover-color: white;
+  display: inline-block !important;
+}
+
+.active {
+  background-color: #1ABC9C !important;
+  color: white !important;
+  border-radius: 5px;
+}
+/* End Nav */
+
+/* Start Footer */
+footer {
+  background-color: #2C3E50;
+  color: white;
+}
+
+footer h4 {
+  font-size: 1.75rem;
+}
+
+footer i {
+  border: 1px solid white;
+  height: 35px !important;
+  width: 35px !important;
+  align-content: center;
+  border-radius: 50%;
+}
+
+.copyrights {
+  background-color: #1A252F;
+}
+/* End Footer */
+
+/* Start Home */
+.home img {
+  width: 250px;
+}
+/* End Home */
+
+/* Start Portfolio */
+.portfolio,
+.contact {
+  color: #2C3E50;
+}
+
+.portfolio .sep span,
+.contact .sep span {
+  background-color: #2C3E50;
+}
+
+.portfolio .img {
+  cursor: pointer;
+}
+
+.portfolio .overlay {
+  background-color: rgba(26, 188, 156, .8);
+  color: white;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.portfolio .img:hover .overlay {
+  opacity: 1;
+}
+
+.selectedImg {
+  background-color: rgba(44, 62, 80, .6);
+}
+
+.selectedImg img {
+  width: 600px;
+  max-width: 90%;
+}
+/* End Portfolio */
+
+/* Start Contact */
+@media (min-width: 1024px) {
+  form {
+    width: 75%;
+  }
+}
+
+form .btn {
+  --bs-btn-bg: #1ABC9C;
+  --bs-btn-hover-bg: #1ABC9C;
+  --bs-btn-color: white;
+  --bs-btn-hover-color: white;
+}
+/* End Contact */
