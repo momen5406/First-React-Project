@@ -4,7 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/First-React-Project/",
   optimizeDeps: {
     include: ['bootstrap/dist/js/bootstrap.bundle.min.js'],
   },
