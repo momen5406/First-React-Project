@@ -2,14 +2,12 @@
   "name": "assignment1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://momen5406.github.io/First-React-Project",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
