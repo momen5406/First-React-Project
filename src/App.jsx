@@ -22,7 +22,7 @@ function App() {
     ]},
   ],
   {
-    basename: "/First-React-Project",
+    basename: "/First-React-Project/",
   });
 
   return <RouterProvider router={x}></RouterProvider>
