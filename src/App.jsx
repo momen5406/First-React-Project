@@ -20,7 +20,10 @@ function App() {
       {path: "portfolio", element: <Portfolio />},
       {path: "contact", element: <Contact />},
     ]},
-  ]);
+  ],
+  {
+    basename: "/First-React-Project",
+  });
 
   return <RouterProvider router={x}></RouterProvider>
 }
